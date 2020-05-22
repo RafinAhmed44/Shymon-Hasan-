@@ -46,17 +46,16 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """ 
-
-\033[1;91m███╗░░░███╗██╗████████╗██╗░░██╗█\033[1;91m█╗
-\033[1;91m████╗░████║██║╚══██╔══╝██║░░██║█\033[1;91m█║
-\033[1;91m██╔████╔██║██║░░░██║░░░███████║█\033[1;91m█║
-\033[1;91m██║╚██╔╝██║██║░░░██║░░░██╔══██║█\033[1;91z
-\033[1;91m██║░╚═╝░██║██║░░░██║░░░██║░░██║█\033[1;91m█║
-\033[1;91m╚═╝░░░░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚\033[1;91m═╝
+███╗░░░███╗██╗████████╗██╗░░██╗██╗
+████╗░████║██║╚══██╔══╝██║░░██║██║
+██╔████╔██║██║░░░██║░░░███████║██║
+██║╚██╔╝██║██║░░░██║░░░██╔══██║██║
+██║░╚═╝░██║██║░░░██║░░░██║░░██║██║
+╚═╝░░░░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRafin Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRafin
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
+\033[1;96mAuthor  \033[1;93m: \033[1;92m Rafin
+\033[1;96mInstagram \033[1;93m: \033[1;Flow Rafin
+\033[1;96mFacebook  \033[1;93m: \033[1; I.Fuek.YoUr.MiND.BnXD
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/Rafin
 \033[1;91m======================================="""
 
@@ -78,9 +77,9 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRafin Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m RafinAhmed44
+\033[1;96mAuthor  \033[1;93m: \033[1;92mRafin
+\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRafin
+\033[1;96mFacebook  \033[1;93m: \033[1;92m I.Fuek.YoUr.MiND.BnXD
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/Rafin
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
@@ -98,10 +97,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
 
 def login():
 	os.system('clear')
