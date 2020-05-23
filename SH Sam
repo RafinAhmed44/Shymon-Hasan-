@@ -56,7 +56,7 @@ logo = """
 █\033[1;91m█║░░██║██║░░██║██║░░░░░██║██║░╚███║
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚══╝
 \033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|Rafin Vau\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/Rafin\033[0m \033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://github.com/RafinAhmed44\033[0m \033[0;31m║
 \033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m0308-7861-7861\033[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
@@ -82,8 +82,8 @@ print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [�
 \033[1;93m [¤] \x1b[0;31mTOOLS BY RAFIN\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : FEELINGS CREATIONSs\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "MITHI"
-CorrectPassword = "MITHI"
+CorrectUsername = "SHMITHI"
+CorrectPassword = "SHMITHI"
 
 loop = 'true'
 while (loop == 'true'):
