@@ -234,7 +234,6 @@ def super():
 	print "\x1b[1;32;40m[3] \033[1;33;40m══Hack Bruteforce(Target)"
 	print "\x1b[1;32;40m[4] \033[1;33;40m══Hack Super Multi Bruteforce facebook"
 	print "\x1b[1;32;40m[5] \033[1;33;40m══Hack Yahoo Checker"
-	print "\x1b[1;32;40m[6] \033[1;33;40m══Hack Ambil Id/Email/hp
 	print "\x1b[1;32;40m[1] \033[1;33;40m══Hack Hotmail/Outlook Checker"
 	print "\x1b[1;32;40m[0] \033[1;33;40m══Back"
 	pilih_super()
@@ -301,7 +300,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;31;48m●💋════════════════════════◄►════════════════════════💋●"
 
-	jalan('                    \033[1;91mAahil start cloning Wait...')
+	jalan('                    \033[1;92mRafin Vau start cloning Wait...')
 	print  "  \033[1;36;48m ●💋════════════════════════◄►════════════════════════💋●" 
 
 	def main(arg):
