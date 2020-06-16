@@ -29,7 +29,7 @@ def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk COK \x1b[1;97m' + o,
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mLOGIN NOW PLEASE WAIT SH \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -72,7 +72,7 @@ def login():
         try:
             br.open('https://m.facebook.com')
         except mechanize.URLError:
-            print '\n\x1b[1;91m[!] Tidak ada koneksi'
+            print '\n\x1b[1;91m[!] SH YOUR PASS WAS WRONG SORRY'
             keluar()
 
         br._factory.is_html = True
@@ -101,16 +101,16 @@ def login():
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
-                print '\n\x1b[1;91m[!] Tidak ada koneksi'
+                print '\n\x1b[1;91m[!] SH YOUR GOOD'
                 keluar()
 
         if 'checkpoint' in url:
-            print '\n\x1b[1;91m[!] \x1b[1;93mAkun kena Checkpoint'
+            print '\n\x1b[1;91m[!] \x1b[1;93mSH You Checkpoint'
             os.system('rm -rf login.txt')
             time.sleep(1)
             keluar()
         else:
-            print '\n\x1b[1;91m[!] Login Gagal'
+            print '\n\x1b[1;91m[!] Login SH'
             os.system('rm -rf login.txt')
             time.sleep(1)
             login()
